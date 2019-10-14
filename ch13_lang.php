@@ -1,6 +1,6 @@
 <?php
 
 echo "<pre>";
-echo system("ls");
+echo shell_exec("ls");
 
 ?>
